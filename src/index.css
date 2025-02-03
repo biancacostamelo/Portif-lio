@@ -1,5 +1,12 @@
+:root{
+  --roxo-escuro: #150f25;
+  --roxo-claro: #19122c;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  background-color: var(--roxo-escuro);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,3 +20,9 @@ code {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}

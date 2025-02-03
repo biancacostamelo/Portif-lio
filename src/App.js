@@ -1,10 +1,13 @@
-
+import React from "react";
+import Home from "./paginas/home";
+import Nav from "./components/nav";
 
 function App() {
   return (
-    <div className="App">
-     <h1>hello horld</h1>
-    </div>
+    <>
+      <Nav/>
+      <Home/>
+    </>
   );
 }
 
