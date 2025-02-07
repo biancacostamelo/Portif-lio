@@ -1,4 +1,91 @@
+#projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 #projetos h2{ 
+    color: #F3F3F3 !important;
     font-family: 'montserrat';
-    font-size: clamp(2.688rem) ;
+    font-size: clamp(1rem, 11vw, 2.688rem);
+    font-weight: 300;
+}
+
+#projetos .gap-5{
+    gap: clamp(3rem, 11vw, 166px)  !important;
+}
+
+#projetos .row .cardProjeto{
+    width: 298px;
+    height: 363px;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#projetos .imgContainer{
+    background-color: aqua;
+    height: 45%;
+    border-radius: 15px;
+    overflow-y: scroll;
+    scrollbar-color: black;
+}
+
+#projetos .imgContent{
+    width: 100%;
+}
+
+#projetos .cardProjetoContain{
+    padding: 25px;
+
+}
+
+#projetos .projetoH3Text{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+#projetos .projetoPText{
+    font-size: 11px;
+    font-family: 'Inter';
+    font-weight: 300;
+    color: #6A6A6A;
+}
+
+#projetos .cardProjetoTecnologiasContain{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#projetos .iconSetaCard{
+    position: absolute;
+    bottom: -6px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-decoration: none;
+    color: #120C28;
+}
+
+#projetos .tecnologiaItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 24px;
+    padding: 6px 10px;
+    background-color: #120C28;
+    color: #e6e6e6;
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 12px;
+    border-radius: 10px;
 }
