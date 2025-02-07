@@ -1,4 +1,4 @@
-#projetos{
+#projetos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,18 +8,18 @@
     padding-bottom: 50px;
 }
 
-#projetos h2{ 
+#projetos h2 {
     color: #F3F3F3 !important;
     font-family: 'montserrat';
     font-size: clamp(1rem, 11vw, 2.688rem);
     font-weight: 300;
 }
 
-#projetos .gap-5{
-    gap: clamp(3rem, 11vw, 166px)  !important;
+#projetos .gap-5 {
+    gap: clamp(3rem, 11vw, 166px) !important;
 }
 
-#projetos .row .cardProjeto{
+#projetos .row .cardProjeto {
     width: 298px;
     height: 363px;
     background-color: #F3F3F3;
@@ -28,7 +28,7 @@
     overflow: hidden;
 }
 
-#projetos .imgContainer{
+#projetos .imgContainer {
     background-color: aqua;
     height: 45%;
     border-radius: 15px;
@@ -36,41 +36,41 @@
     scrollbar-color: black;
 }
 
-#projetos .imgContent{
+#projetos .imgContent {
     width: 100%;
 }
 
-#projetos .cardProjetoContain{
+#projetos .cardProjetoContain {
     padding: 25px;
 
 }
 
-#projetos .projetoH3Text{
+#projetos .projetoH3Text {
     font-size: 13px;
     font-weight: 500;
     font-family: 'Inter';
 }
 
-#projetos .projetoPText{
+#projetos .projetoPText {
     font-size: 11px;
     font-family: 'Inter';
     font-weight: 300;
     color: #6A6A6A;
-    display: -webkit-box;           /* Necessário para o line-clamp */
-  -webkit-box-orient: vertical;   /* Necessário para o line-clamp */
-  -webkit-line-clamp: 3;          /* Limita a 3 linhas */
-  overflow: hidden;               /* Esconde o conteúdo que ultrapassar as 3 linhas */
-  text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-#projetos .cardProjetoTecnologiasContain{
+#projetos .cardProjetoTecnologiasContain {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     position: relative;
 }
 
-#projetos .iconSetaCard{
+#projetos .iconSetaCard {
     position: absolute;
     bottom: -6px;
     right: 0px;
@@ -81,7 +81,7 @@
     color: #120C28;
 }
 
-#projetos .tecnologiaItem{
+#projetos .tecnologiaItem {
     display: flex;
     align-items: center;
     justify-content: center;
