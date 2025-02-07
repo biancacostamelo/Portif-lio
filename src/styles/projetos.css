@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     gap: 100px;
-    height: 100vh;
-    padding-top: 50px;
+    overflow-x: hidden;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
+
 #projetos h2{ 
     color: #F3F3F3 !important;
     font-family: 'montserrat';
@@ -55,6 +56,11 @@
     font-family: 'Inter';
     font-weight: 300;
     color: #6A6A6A;
+    display: -webkit-box;           /* Necessário para o line-clamp */
+  -webkit-box-orient: vertical;   /* Necessário para o line-clamp */
+  -webkit-line-clamp: 3;          /* Limita a 3 linhas */
+  overflow: hidden;               /* Esconde o conteúdo que ultrapassar as 3 linhas */
+  text-overflow: ellipsis; 
 }
 
 #projetos .cardProjetoTecnologiasContain{
@@ -83,9 +89,9 @@
     height: 24px;
     padding: 6px 10px;
     background-color: #120C28;
-    color: #e6e6e6;
+    color: #e2e2e2;
     font-family: 'Inter';
-    font-weight: 200;
-    font-size: 12px;
-    border-radius: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    border-radius: 15px;
 }

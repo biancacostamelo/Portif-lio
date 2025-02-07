@@ -1,11 +1,12 @@
 nav{
     width: 100vw;
-    height: 80px;
+    height: 70px;
     position: fixed;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 15px;
+    backdrop-filter: blur(2px);
 }
 
 #root{
