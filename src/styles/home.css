@@ -33,6 +33,8 @@
 
 #home .view-icon-seta{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 #home .view-icon-seta .icon-seta{

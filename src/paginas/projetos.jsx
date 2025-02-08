@@ -1,19 +1,20 @@
 import React from 'react'
 import '../styles/projetos.css'
-// import SiteMastercard from '../assets/images/projetos/imagens/site-cartao.png'
+import SiteMastercard from '../assets/images/projetos/imagens/siteCartao.png'
 import projects from '../data/projetos.json'
 
 function Projetos() {
   return (
+    <div className="container">
     <div id='projetos'>
       <h2>Projetos</h2>
       <div className="row gap-5 justify-content-center">
 
         {projects.map((e) => (
           e.tecnologias.length >= 6 ? (
-            <div className="col-md-4 m-3 cardProjeto" key={e.id} style={{ height: '413px' }}>
+            <div className="col-md-4 cardProjeto" key={e.id} style={{ height: '413px' }}>
               <div className="imgContainer">
-                <img className='imgContent' src={e['link-img']} alt={e.subtitulo} />
+                <img className='imgContent' src= {e['link-img']} alt={e.subtitulo} />
               </div>
               <div className="cardProjetoContain">
                 <div className="cardProjetoTextContainer">
@@ -30,7 +31,7 @@ function Projetos() {
             </div>
             )
             : (
-              <div className="col-md-4 m-3 cardProjeto" key={e.id}>
+              <div className="col-md-4 cardProjeto" key={e.id}>
                 <div className="imgContainer">
                   <img className='imgContent' src={e['link-img']} alt={e.subtitulo} />
                 </div>
@@ -50,7 +51,7 @@ function Projetos() {
               )
               
         ))}
-        {/* <div className="col-md-4 m-3 cardProjeto">
+        <div className="col-md-4 cardProjeto">
           <div className="imgContainer">
             <img className='imgContent' src={SiteMastercard} alt="" />
           </div>
@@ -67,8 +68,10 @@ function Projetos() {
               <a href="#projetos" className='iconSetaCard'>↗</a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
+    </div>
+      
     </div>
   )
 }

@@ -16,11 +16,11 @@
 }
 
 #projetos .gap-5 {
-    gap: clamp(3rem, 11vw, 166px) !important;
+    gap: clamp(3rem, 11vw, 130px) !important;
 }
 
 #projetos .row .cardProjeto {
-    width: 298px;
+    width: 285px;
     height: 363px;
     background-color: #F3F3F3;
     border-radius: 15px;
