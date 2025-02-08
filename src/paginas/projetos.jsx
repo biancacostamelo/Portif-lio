@@ -11,23 +11,24 @@ function Projetos() {
 
         {projects.map((e) => (
           e.tecnologias.length >= 6 ? (
-              <div className="col-md-4 m-3 cardProjeto" key={e.id} style={{height: '413px'}}>
-                <div className="imgContainer">
-                  <img className='imgContent' src={e['link-img']} alt={e.subtitulo} />
+            <div className="col-md-4 m-3 cardProjeto" key={e.id} style={{ height: '413px' }}>
+              <div className="imgContainer">
+                <img className='imgContent' src={e['link-img']} alt={e.subtitulo} />
+              </div>
+              <div className="cardProjetoContain">
+                <div className="cardProjetoTextContainer">
+                  <h3 className='projetoH3Text'>{e.titulo}</h3>
+                  <p className='projetoPText'>{e.descricao}</p>
                 </div>
-                <div className="cardProjetoContain">
-                  <div className="cardProjetoTextContainer">
-                    <h3 className='projetoH3Text'>{e.titulo}</h3>
-                    <p className='projetoPText'>{e.descricao}</p>
-                  </div>
-                  <div className="cardProjetoTecnologiasContain">
-                    {e.tecnologias.map((i) => (
-                      <div className="tecnologiaItem">{i}</div>
-                    ))}
-                     <a href={e['link-repositorio']} className='iconSetaCard'>↗</a>
-                  </div>
+                <div className="cardProjetoTecnologiasContain">
+                  {e.tecnologias.map((i) => (
+                    <div className="tecnologiaItem">{i}</div>
+                  ))}
+                  <a href={e['link-repositorio']} target='_blank' className='iconSetaCard' rel="noopener noreferrer">↗</a>
                 </div>
-              </div>)
+              </div>
+            </div>
+            )
             : (
               <div className="col-md-4 m-3 cardProjeto" key={e.id}>
                 <div className="imgContainer">
@@ -42,15 +43,13 @@ function Projetos() {
                     {e.tecnologias.map((i) => (
                       <div className="tecnologiaItem">{i}</div>
                     ))}
-                    <a href={e['link-repositorio']} className='iconSetaCard'>↗</a>
+                    <a href={e['link-repositorio']} target='_blank' className='iconSetaCard' rel="noopener noreferrer">↗</a>
                   </div>
                 </div>
-              </div>)
-          
-  ))}
-
-          
-
+              </div>
+              )
+              
+        ))}
         {/* <div className="col-md-4 m-3 cardProjeto">
           <div className="imgContainer">
             <img className='imgContent' src={SiteMastercard} alt="" />
@@ -69,7 +68,6 @@ function Projetos() {
             </div>
           </div>
         </div> */}
-
       </div>
     </div>
   )

@@ -3,7 +3,7 @@
     "titulo": "Sistema Financeiro",
     "subtitulo": "Sitema de Gerenciamento de Finanças",
     "link-repositorio": "https://github.com/biancacostamelo/sistema-financeiro",
-    "link-img": "../assets/images/projetos/imagens/site-cartao.png",
+    "link-img": "/public/site-cartao.png",
     "link-video": "../assets/images/projetos/videos/video-sistema-financeiro.mp4",
     "nivel": "avancado",
     "cores-principais": ["#69EB8C, #003366"],
