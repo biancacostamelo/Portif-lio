@@ -20,6 +20,7 @@
 }
 
 #projetos .row .cardProjeto {
+    /*width: 285px;*/
     width: 285px;
     height: 363px;
     background-color: #F3F3F3;
