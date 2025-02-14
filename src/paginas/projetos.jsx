@@ -14,7 +14,7 @@ function Projetos() {
           e.tecnologias.length >= 6 ? (
             <div className="col-md-4 cardProjeto" key={e.id} style={{ height: '413px' }}>
               <div className="imgContainer">
-                <img className='imgContent' src= {e['link-img']} alt={e.subtitulo} />
+              <img className='imgContent' src= {e.linkimg} alt={e.subtitulo} />
               </div>
               <div className="cardProjetoContain">
                 <div className="cardProjetoTextContainer">
@@ -33,7 +33,7 @@ function Projetos() {
             : (
               <div className="col-md-4 cardProjeto" key={e.id}>
                 <div className="imgContainer">
-                  <img className='imgContent' src={e['link-img']} alt={e.subtitulo} />
+                  <img className='imgContent' src={e.linkimg} alt={e.subtitulo} />
                 </div>
                 <div className="cardProjetoContain">
                   <div className="cardProjetoTextContainer">

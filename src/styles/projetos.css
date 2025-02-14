@@ -11,7 +11,7 @@
 #projetos h2 {
     color: #F3F3F3 !important;
     font-family: 'montserrat';
-    font-size: clamp(1rem, 11vw, 2.688rem);
+    font-size: clamp(1rem, 11vw, 3rem);
     font-weight: 300;
 }
 
@@ -34,7 +34,7 @@
     height: 45%;
     border-radius: 15px;
     overflow-y: scroll;
-    scrollbar-color: black;
+    scrollbar-width: thin;
 }
 
 #projetos .imgContent {
