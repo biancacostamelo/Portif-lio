@@ -17,11 +17,6 @@
     font-family: 'montserrat';
     font-weight: 300;
     letter-spacing: 5%;
-  font-size: clamp(2.5rem, 11vw, 6rem);
-  color: #fff;
-  font-family: "montserrat";
-  font-weight: 300;
-  letter-spacing: 5%;
 }
 
 #home h1 {
