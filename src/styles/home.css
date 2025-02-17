@@ -1,54 +1,51 @@
-#home{
-    background: url(../assets/images/home/home-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    text-align: center;
+#home {
+  background: url(../assets/images/home/home-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
 }
-
 
 #home h2 {
-    font-size: clamp(2.5rem, 11vw, 6rem);
-    color: #fff;
-    font-family: 'montserrat';
-    font-weight: 300;
-    letter-spacing: 5%;
+  font-size: clamp(2.5rem, 11vw, 6rem);
+  color: #fff;
+  font-family: "montserrat";
+  font-weight: 300;
+  letter-spacing: 5%;
 }
 
-
-#home h1{
-    color: #461da9;
-    font-family: 'montserrat';
-    font-size: clamp(1rem, 3vw, 1.25rem);
-    /* font-size: 1.25rem; */
-    color: #fff;
-    font-weight: 300;
-    margin: 0 55px;
+#home h1 {
+  color: #461da9;
+  font-family: "montserrat";
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  /* font-size: 1.25rem; */
+  color: #fff;
+  font-weight: 300;
+  margin: 0 55px;
 }
 
-#home .view-icon-seta{
-    position: relative;
-    display: flex;
-    justify-content: center;
+#home .view-icon-seta {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-#home .view-icon-seta .icon-seta{
-    animation: iconSeta 2s infinite;
-    position: absolute;
-    bottom: 5px;
+#home .view-icon-seta .icon-seta {
+  animation: iconSeta 2s infinite;
+  position: absolute;
+  bottom: 5px;
 }
 
 @keyframes iconSeta {
-    50%{
-        margin-bottom: 15px;
-    }
-    100%{
-        margin-bottom: 0px;
-    }
+  50% {
+    margin-bottom: 15px;
+  }
+  100% {
+    margin-bottom: 0px;
+  }
 }
-

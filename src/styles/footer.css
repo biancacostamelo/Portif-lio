@@ -1,44 +1,44 @@
-nav{
-    width: 100vw;
-    height: 70px;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    gap: 15px;
-    backdrop-filter: blur(2px);
+nav {
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 15px;
+  backdrop-filter: blur(2px);
 }
 
-#root{
-    position: relative;
+#root {
+  position: relative;
 }
 
-.icone-home:hover{
-    filter: invert(90%);
+.icone-home:hover {
+  filter: invert(90%);
 }
 
-.icone-projects:hover{
-    fill: #d8d8d8;
-    cursor: pointer;
+.icone-projects:hover {
+  fill: #d8d8d8;
+  cursor: pointer;
 }
 
-nav .view-home{
-    color: white;
-    font-family: 'montserrat';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+nav .view-home {
+  color: white;
+  font-family: "montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
- 
-.text-icon{
-    opacity: 0;
-    font-size: 0.8rem;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  
-.view-home:hover .text-icon{
-    opacity: 1;
-    transition: 0.3s ease;
+
+.text-icon {
+  opacity: 0;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.view-home:hover .text-icon {
+  opacity: 1;
+  transition: 0.3s ease;
 }

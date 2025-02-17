@@ -6,9 +6,9 @@ import Projetos from "./paginas/projetos";
 function App() {
   return (
     <>
-      <Nav/>
-      <Home/>
-      <Projetos/>
+      <Nav />
+      <Home />
+      <Projetos />
     </>
   );
 }

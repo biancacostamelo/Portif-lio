@@ -1,5 +1,6 @@
 [
-    {"id": 1,
+  {
+    "id": 1,
     "titulo": "Sistema Financeiro",
     "subtitulo": "Sitema de Gerenciamento de Finanças",
     "link-repositorio": "https://github.com/biancacostamelo/sistema-financeiro",
@@ -8,12 +9,21 @@
     "nivel": "avancado",
     "cores-principais": ["#69EB8C, #003366"],
     "cor-gradiente": "#1b3b23, #001b36",
-    "tecnologias": ["React.Js", "NODE.Js", "MySQL", "Express", "JavaSript", "Chart.Js", "Axios"],
+    "tecnologias": [
+      "React.Js",
+      "NODE.Js",
+      "MySQL",
+      "Express",
+      "JavaSript",
+      "Chart.Js",
+      "Axios"
+    ],
     "descricao": "Projeto para organizar finanças pessoais, com funcionalidades de adicionar, excluir, editar e visualizar receitas e despesas em um dashboard interativo.",
-    "dados-tecnologias": {"JavaScript": "50%","HTML": "2.5%", "CSS": "12.6%"}
-    },
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+  },
 
-    {"id": 2,
+  {
+    "id": 2,
     "titulo": "MasterCard Landing Page",
     "subtitulo": "Landing Page Para Visualização de Produto",
     "link-repositorio": "https://github.com/biancacostamelo/Master-card",
@@ -24,10 +34,15 @@
     "cor-gradiente": "#133C45, #080913",
     "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Construção de landing page de cartão de crédito.",
-    "dados-tecnologias": {"JavaScript": "8.5%","HTML": "67.9%", "CSS": "23.6%"}
-    },
-    
-    {"id": 3,
+    "dados-tecnologias": {
+      "JavaScript": "8.5%",
+      "HTML": "67.9%",
+      "CSS": "23.6%"
+    }
+  },
+
+  {
+    "id": 3,
     "titulo": "Xbox Landing Page",
     "subtitulo": "Landing Page Para Visualização de Produtos Eletronicos",
     "link-repositorio": "https://github.com/biancacostamelo/sistema-financeiro",
@@ -36,12 +51,13 @@
     "nivel": "básico",
     "cores-principais": ["#DD89FF, #A988FF"],
     "cor-gradiente": "#1E1835, #2B244C",
-    "tecnologias": ["React.Js", "JavaSript", "HTML", "CSS", "Bootstrap"],
+    "tecnologias": ["React.Js", "JavaScript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Projeto institucional. Landing page para venda de produtos eletronicos. Criada com React.Js, HTML, CSS e Bootstrap.",
-    "dados-tecnologias": {"JavaScript": "50%","HTML": "2.5%", "CSS": "12.6%"}
-    },
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+  },
 
-    {"id": 4,
+  {
+    "id": 4,
     "titulo": "Sistema Financeiro",
     "subtitulo": "Sitema de Gerenciamento de Finanças",
     "link-repositorio": "https://github.com/biancacostamelo/sistema-financeiro",
@@ -50,12 +66,21 @@
     "nivel": "avancado",
     "cores-principais": ["#69EB8C, #003366"],
     "cor-gradiente": "#1b3b23, #001b36",
-    "tecnologias": ["React.Js", "NODE.Js", "MySQL", "Express", "JavaSript", "Chart.Js", "Axios"],
+    "tecnologias": [
+      "React.Js",
+      "NODE.Js",
+      "MySQL",
+      "Express",
+      "JavaSript",
+      "Chart.Js",
+      "Axios"
+    ],
     "descricao": "Projeto para organizar finanças pessoais, com funcionalidades de adicionar, excluir, editar e visualizar receitas e despesas em um dashboard interativo.",
-    "dados-tecnologias": {"JavaScript": "50%","HTML": "2.5%", "CSS": "12.6%"}
-    },
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+  },
 
-    {"id": 5,
+  {
+    "id": 5,
     "titulo": "MasterCard Landing Page",
     "subtitulo": "Landing Page Para Visualização de Produto",
     "link-repositorio": "https://github.com/biancacostamelo/Master-card",
@@ -66,10 +91,15 @@
     "cor-gradiente": "#133C45, #080913",
     "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Construção de landing page de cartão de crédito.",
-    "dados-tecnologias": {"JavaScript": "8.5%","HTML": "67.9%", "CSS": "23.6%"}
-    },
-    
-    {"id": 6,
+    "dados-tecnologias": {
+      "JavaScript": "8.5%",
+      "HTML": "67.9%",
+      "CSS": "23.6%"
+    }
+  },
+
+  {
+    "id": 6,
     "titulo": "Xbox Landing Page",
     "subtitulo": "Landing Page Para Visualização de Produtos Eletronicos",
     "link-repositorio": "https://github.com/biancacostamelo/sistema-financeiro",
@@ -80,6 +110,6 @@
     "cor-gradiente": "#1E1835, #2B244C",
     "tecnologias": ["React.Js", "JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Projeto institucional. Landing page para venda de produtos eletronicos. Criada com React.Js, HTML, CSS e Bootstrap.",
-    "dados-tecnologias": {"JavaScript": "50%","HTML": "2.5%", "CSS": "12.6%"}
-    }
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+  }
 ]
