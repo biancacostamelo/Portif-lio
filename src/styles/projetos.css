@@ -9,10 +9,10 @@
 }
 
 #projetos h2 {
-  color: #f3f3f3 !important;
-  font-family: "montserrat";
-  font-size: clamp(1rem, 11vw, 2.688rem);
-  font-weight: 300;
+    color: #F3F3F3 !important;
+    font-family: 'montserrat';
+    font-size: clamp(1rem, 11vw, 3rem);
+    font-weight: 300;
 }
 
 #projetos .gap-5 {
@@ -20,20 +20,21 @@
 }
 
 #projetos .row .cardProjeto {
-  width: 285px;
-  height: 363px;
-  background-color: #f3f3f3;
-  border-radius: 15px;
-  padding: 0;
-  overflow: hidden;
+    /*width: 285px;*/
+    width: 285px;
+    height: 363px;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
 }
 
 #projetos .imgContainer {
-  background-color: aqua;
-  height: 45%;
-  border-radius: 15px;
-  overflow-y: scroll;
-  scrollbar-color: black;
+    background-color: aqua;
+    height: 45%;
+    border-radius: 15px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
 }
 
 #projetos .imgContent {
