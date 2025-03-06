@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 #projetos {
   display: flex;
   flex-direction: column;
@@ -9,35 +13,39 @@
 }
 
 #projetos h2 {
-    color: #F3F3F3 !important;
-    font-family: 'montserrat';
-    font-size: clamp(1rem, 11vw, 3rem);
-    font-weight: 300;
+  color: var(--brancoEsp) !important;
+  font-family: "montserrat";
+  font-size: clamp(1rem, 11vw, 3rem);
+  font-weight: 300;
 }
 
 #projetos .gap-5 {
-  gap: clamp(3rem, 11vw, 130px) !important;
+  gap: clamp(3rem, 11vw, 120px) !important;
 }
 
 #projetos .row .cardProjeto {
-    /*width: 285px;*/
-    width: 285px;
-    height: 363px;
-    background-color: #F3F3F3;
-    border-radius: 15px;
-    padding: 0;
-    overflow: hidden;
+  width: 400px;
+  height: min-content;
+  background-color: var(--bgCard);
+  border-radius: 15px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: var(--sombraCard);
 }
 
 #projetos .imgContainer {
-    background-color: aqua;
-    height: 45%;
-    border-radius: 15px;
-    overflow-y: scroll;
-    scrollbar-width: thin;
+  height: 200px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
 }
 
 #projetos .imgContent {
+  width: 100%;
+}
+
+#projetos .videoContent {
+  height: auto;
   width: 100%;
 }
 
@@ -49,17 +57,18 @@
   font-size: 13px;
   font-weight: 500;
   font-family: "Inter";
+  color: var(--brancoEsp);
 }
 
 #projetos .projetoPText {
   font-size: 11px;
   font-family: "Inter";
   font-weight: 300;
-  color: #6a6a6a;
+  color: var(--paragrafo);
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
   line-clamp: 3;
+  -webkit-line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -69,6 +78,7 @@
   gap: 10px;
   flex-wrap: wrap;
   position: relative;
+  padding-right: 8px;
 }
 
 #projetos .iconSetaCard {
@@ -79,7 +89,7 @@
   padding: 0;
   font-size: 25px;
   text-decoration: none;
-  color: #120c28;
+  color: var(--brancoEsp);
 }
 
 #projetos .tecnologiaItem {
@@ -89,10 +99,51 @@
   width: auto;
   height: 24px;
   padding: 6px 10px;
-  background-color: #120c28;
-  color: #e2e2e2;
+  background-color: var(--bgItemTec);
+  color: var(--brancoEsp);
   font-family: "Inter";
-  font-weight: 400;
+  font-weight: 500;
   font-size: 11px;
   border-radius: 15px;
+  box-shadow: inset 1px 0px 9px #00000017;
+}
+
+#projetos #ampla, #padrao, #compacto{
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 1197px) {
+  #compacto{
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .btn-view {
+    display: none !important;
+  }
+  .imgContainer {
+    height: 200px !important;
+  }
+
+  .cardProjeto {
+    width: 400px !important;
+  }
+  .videoContent {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .imgContainer {
+    height: 160px !important;
+  }
+  .cardProjeto {
+    width: 295px !important;
+  }
+  .videoContent {
+    height: 100% !important;
+  }
 }
