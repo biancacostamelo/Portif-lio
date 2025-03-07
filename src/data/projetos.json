@@ -116,7 +116,7 @@
     "nivel": "básico",
     "cores-principais": ["#6091db", "#6071db"],
     "cor-gradiente": ["#6091db", "#6091db50"],
-    "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
+    "tecnologias": ["JavaSript", "HTML", "CSS"],
     "descricao": "Calculadora simples, funcional e responsiva criada com HTML, CSS, JavaScript e Bootstrap.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   }
