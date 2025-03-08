@@ -1,0 +1,43 @@
+.inputContato{
+    background-color: var(--bgLabel);
+    color: var(--contrast);
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px var(--borderInput) solid;
+    border-radius: 10px;
+  }
+  
+  .btn-contato{
+    background-color: var(--bgBtn);
+    color: var(--texto);
+    font-weight: 500;
+    margin: 20px 0px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
+  
+  .btn-contato:hover{
+    background-color: #a08bc4;
+  }
+  
+  #contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .areaContato{
+    width: 50%;
+  }
+  
+  @media (max-width: 987px) {
+    .areaContato {
+      width: 85%;
+    }
+  }
+
+  #contato p, label{
+    color: var(--paragrafo);
+  }

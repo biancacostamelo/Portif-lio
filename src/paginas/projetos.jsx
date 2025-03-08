@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 //import "../styles/projetos.css";
-// import SiteMastercard from "../assets/images/projetos/imagens/siteCartao.png";
 import projectsd from "../data/projetos.json";
 
 const Projetos = () => {

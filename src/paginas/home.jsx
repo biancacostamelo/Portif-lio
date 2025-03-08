@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/home.css";
 
-function Home() {
+const Home = () => {
   return (
     <div id="home">
       <div className="a"></div>
