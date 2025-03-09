@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nome": "React",
+        "caminho": "/assets/icones/react.svg",
+        "descricao": "Framework"
+    },
+    {
+        "id": 2,
+        "nome": "JavaScript",
+        "caminho": "/assets/icones/javascript.svg",
+        "descricao": "Linguagem"
+    },
+    {
+        "id": 3,
+        "nome": "Express",
+        "caminho": "/assets/icones/express.svg",
+        "descricao": "Framework"
+    },
+    {
+        "id": 4,
+        "nome": "Node.JS",
+        "caminho": "/assets/icones/node.svg",
+        "descricao": "Software"
+    },
+    {
+        "id": 5,
+        "nome": "MySQL",
+        "caminho": "/assets/icones/mysql.svg",
+        "descricao": "Banco de Dados"
+    },
+    {
+        "id": 6,
+        "nome": "Bootstrap",
+        "caminho": "/assets/icones/bootstrap.svg",
+        "descricao": "Framework"
+    },
+    {
+        "id": 7,
+        "nome": "Figma",
+        "caminho": "/assets/icones/figma.svg",
+        "descricao": "Ferramenta de Design"
+    },
+    {
+        "id": 8,
+        "nome": "WordPress",
+        "caminho": "/assets/icones/wordpress.svg",
+        "descricao": "CMS"
+    },
+    {
+        "id": 9,
+        "nome": "HTML",
+        "caminho": "/assets/icones/html.svg",
+        "descricao": "Linguagem de Marcação"
+    },
+    {
+        "id": 10,
+        "nome": "CSS",
+        "caminho": "/assets/icones/css.svg",
+        "descricao": "Folha de Estilo"
+    },
+    {
+        "id": 10,
+        "nome": "React Native",
+        "caminho": "/assets/icones/reactnative.svg",
+        "descricao": "Framework"
+    },
+    {
+        "id": 10,
+        "nome": "API Rest",
+        "caminho": "/assets/icones/api.svg",
+        "descricao": "Arquitetura de Software"
+    }
+]
