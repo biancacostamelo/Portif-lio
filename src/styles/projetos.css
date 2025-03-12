@@ -113,6 +113,10 @@
   border: none;
 }
 
+#projetos .display{
+  justify-content: space-between;
+}
+
 @media (max-width: 1197px) {
   #compacto{
     display: none;

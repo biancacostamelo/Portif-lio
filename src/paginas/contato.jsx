@@ -4,6 +4,7 @@ import '../styles/contato.css'
 const Contato = () => {
   return (
     <div id="contato">
+      <div className="container d-flex justify-content-center">
       <div className="areaContato">
         <div className="row">
           <div className="col-xl-6">
@@ -45,6 +46,7 @@ const Contato = () => {
           </div>
           <button onsubmit="enviar()" className=" btn-contato">Enviar mensagem</button>
         </form>
+      </div>
       </div>
     </div>
   )

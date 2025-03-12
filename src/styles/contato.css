@@ -26,10 +26,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   
   .areaContato{
-    width: 50%;
+    width: 60%;
   }
   
   @media (max-width: 987px) {

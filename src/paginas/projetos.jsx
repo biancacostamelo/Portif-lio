@@ -10,7 +10,7 @@ const Projetos = () => {
     setProjects(projectsd);
   }, []);
 
-const [layout, setLayout] = useState('padrao')
+const [layout, setLayout] = useState('compacto')
 
 function TipoLayout(params) {
   setLayout(params)
@@ -19,12 +19,12 @@ function TipoLayout(params) {
 const getContainerStyle = () => {
   switch (layout) {
     case 'ampla':
-      return { height: '280px', width: '50%' };
+      return { height: '280px', width: '50%', justifyContent: 'center'};
     case 'compacto':
-      return { height: '160px', width: '295px' };
+      return { height: '160px', width: '320px', justifyContent: 'space-around'};
     case 'padrao':
     default:
-      return { height: '200px', width: '400px' };
+      return { height: '200px', width: '400px', justifyContent: 'center' };
   }
 } 
 
@@ -33,7 +33,7 @@ const getContainerStyle = () => {
       <div id="projetos">
         <h2>Projetos</h2>
 
-        <div className="d-flex w-100 gap-3 justify-content-end align-items-center btn-view">
+        <div className="d-flex w-100 gap-3 justify-content-end align-items-center btn-view"  >
         <button id="ampla" title='Amplo' onClick={()=> TipoLayout('ampla')}>
           <svg className="svgBtnView" width="34px" height="34px" viewBox="0 0 24 24" fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@ const getContainerStyle = () => {
 
       </div>
 
-        <div className="row gap-5 justify-content-center">
+        <div className="row gap-5" style={{justifyContent: getContainerStyle().justifyContent}}>
           {projects.map((e) =>
             <div
               className="col-md-4 cardProjeto"
