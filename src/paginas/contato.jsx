@@ -16,7 +16,7 @@ const Contato = () => {
           </div>
         </div>
         <form action="" className="" onsubmit="enviar()">
-          <div className="row">
+          <div className="row mb-3">
             <div className="col-lg-6 d-flex flex-column">
               <label for="PrimeiroNome">Nome</label>
               <input className="inputContato" type="text" id="PrimeiroNome" placeholder="Nome" />
@@ -26,7 +26,7 @@ const Contato = () => {
               <input className="inputContato" type="text" id="PrimeiroNome" placeholder="E-mail" />
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-3">
             <div className="col-lg-12 d-flex flex-column">
               <label for="Assunto">Assunto</label>
               <select className="inputContato" name="" id="Assunto">
@@ -38,7 +38,7 @@ const Contato = () => {
               </select>
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-1">
             <div className="col-12 d-flex flex-column">
               <label for="msg">Mensagem</label>
               <textarea className="inputContato" name="" id=""></textarea>

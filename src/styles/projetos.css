@@ -117,10 +117,22 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1197px) {
-  #compacto{
-    display: none;
+@media (max-width: 1399px) {
+  #display{
+    justify-content: center !important;
   }
+}
+
+@media (max-width: 1399px) {
+  #compacto{
+   display: none;
+ }
+}
+
+@media (max-width: 995px) {
+ #padrao{
+   display: none;
+ }
 }
 
 @media (max-width: 991px) {

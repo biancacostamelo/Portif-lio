@@ -72,7 +72,7 @@ const getContainerStyle = () => {
 
       </div>
 
-        <div className="row gap-5" style={{justifyContent: getContainerStyle().justifyContent}}>
+        <div className="row gap-5" id="display" style={{justifyContent: getContainerStyle().justifyContent}}>
           {projects.map((e) =>
             <div
               className="col-md-4 cardProjeto"

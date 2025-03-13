@@ -32,6 +32,10 @@
   .areaContato{
     width: 60%;
   }
+
+  #contato * {
+  font-family: 'Inter';
+}
   
   @media (max-width: 987px) {
     .areaContato {
@@ -42,3 +46,8 @@
   #contato p, label{
     color: var(--paragrafo);
   }
+
+  #contato label, p, button, select{
+    font-size: 14px;
+  }
+  
