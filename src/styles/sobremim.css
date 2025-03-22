@@ -17,7 +17,7 @@
 }
 .textoTech p, span, hr {
   font-family: "Inter";
-  color: var(--brancoEsp);
+  color: var(--brancoEsp) !important;
   margin: 0;
   padding: 0;
 }
@@ -54,5 +54,33 @@
   #tecnologias .col-md-4 {
     width: 94%;
     margin: auto;
+  }
+}
+
+/* Sobre Mim */
+
+#sobremim{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+#sobremim h2, h4 {
+  color: var(--brancoEsp) !important;
+  font-family: "Inter";
+  font-size: clamp(1rem, 11vw, 1.5rem);
+  font-weight: 300;
+}
+
+.quadrado{
+  height: 100%;
+  width: 60%;
+  transform: rotate(-7deg);
+  background-color: aliceblue;
+}
+
+@media (max-width: 767px) {
+  .quadrado{
+      display: none;
   }
 }

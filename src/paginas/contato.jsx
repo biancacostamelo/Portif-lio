@@ -3,7 +3,7 @@ import '../styles/contato.css'
 
 const Contato = () => {
   return (
-    <div id="contato">
+    <div id="contato" class="my-5 py-5">
       <div className="container d-flex justify-content-center">
       <div className="areaContato">
         <div className="row">

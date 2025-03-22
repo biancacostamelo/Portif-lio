@@ -1,44 +1,60 @@
-nav {
-  width: 100vw;
-  height: 70px;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  gap: 15px;
-  backdrop-filter: blur(2px);
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#root {
-  position: relative;
+#rodape p{
+    margin: 0px;
+    padding: 0px;
 }
 
-.icone-home:hover {
-  filter: invert(90%);
+#rodape p, span{
+font-family: 'Inter';
 }
 
-.icone-projects:hover {
-  fill: #d8d8d8;
-  cursor: pointer;
+#rodape p:nth-child(2){
+    font-size: 12px;
 }
 
-nav .view-home {
-  color: white;
-  font-family: "montserrat";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+#rodape p:nth-child(1){
+    font-weight: 500;
 }
 
-.text-icon {
-  opacity: 0;
-  font-size: 0.8rem;
-  cursor: pointer;
-  transition: 0.3s ease;
+#rodape a{
+    color: var(--brancoEsp);
+    text-decoration: none;
 }
 
-.view-home:hover .text-icon {
-  opacity: 1;
-  transition: 0.3s ease;
+.linksfooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3em;
+}
+
+@media (max-width: 766px) {
+    .linksfooter{
+        flex-direction: column;
+        align-items: start !important;
+        gap: 1em;
+        margin-top: 20px;
+    }
+}
+
+#rodape .iconUser{
+    height: 51px ;
+    width: 51px; 
+    background-color: #47fa6a; 
+    border-radius: 100px;
+}
+
+.icon-linkedin{
+    color: var(--brancoEsp);
+    height: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.icon-linkedin:hover{
+    color: var(--bgBtn);
 }

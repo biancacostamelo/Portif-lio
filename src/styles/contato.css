@@ -16,10 +16,13 @@
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
+    font-family: 'Inter';
+    transition: 0.1s ease-in-out;
   }
   
   .btn-contato:hover{
     background-color: #a08bc4;
+    color: var(--texto);
   }
   
   #contato{

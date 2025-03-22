@@ -3,7 +3,7 @@ import tech from "../data/myTech.json";
 
 const Tecnologias = () => {
   return (
-    <div id="tecnologias">
+    <div id="tecnologias"  class="my-5 py-5">
       <div class="container">
         <h2>Tecnologias</h2>
         <div class="row">

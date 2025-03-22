@@ -1,0 +1,24 @@
+#formacao h2, p, span, h3{
+    color: var(--brancoEsp);
+    font-family: 'Inter';
+}
+#formacao h2{
+    font-family: "Inter";
+    font-size: clamp(1rem, 11vw, 1.5rem);
+    font-weight: 300;
+}
+
+#formacao span{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#formacao p{
+    font-weight: 300;
+}
+
+#formacao ul, li{
+    font-family: "Inter";
+    font-weight: 300;
+    color: var(--brancoEsp);
+}
