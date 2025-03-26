@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"; 
 import { faGithub } from "@fortawesome/free-brands-svg-icons"; 
 
-import { CloudArrowUp } from 'react-bootstrap-icons';
-
 function Footer() {
   return (
     <div id="rodape" class="my-5">
@@ -31,13 +29,12 @@ function Footer() {
           </div>
           <hr />
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-6">
               <p>© 2025. All rights reserved.</p>
             </div>
-            <div class="col-sm-6 d-flex justify-content-end align-items-center gap-3">
+            <div class="col-6 d-flex justify-content-end align-items-center gap-3">
               <FontAwesomeIcon icon={faLinkedin} className="icon-linkedin" />
               <FontAwesomeIcon icon={faGithub}  className="icon-linkedin" />
-              <CloudArrowUp size={25} className="icon-linkedin"/>
             </div>
           </div>
         </div>

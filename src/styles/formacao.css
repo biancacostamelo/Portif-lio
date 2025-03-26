@@ -4,7 +4,7 @@
 }
 #formacao h2{
     font-family: "Inter";
-    font-size: clamp(1rem, 11vw, 1.5rem);
+    font-size: clamp(1rem, 11vw, 1.8rem);
     font-weight: 300;
 }
 
