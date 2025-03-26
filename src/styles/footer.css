@@ -53,6 +53,7 @@ font-family: 'Inter';
     color: var(--brancoEsp);
     height: 25px;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .icon-linkedin:hover{

@@ -14,7 +14,7 @@
     {
         "id": 3,
         "nome": "Express",
-        "caminho": "/assets/icones/express.svg",
+        "caminho": "/assets/icones/node.svg",
         "descricao": "Framework"
     },
     {
@@ -68,7 +68,7 @@
     {
         "id": 10,
         "nome": "API Rest",
-        "caminho": "/assets/icones/api.svg",
+        "caminho": "/assets/icones/cloudarrowupfill.svg",
         "descricao": "Arquitetura de Software"
     }
 ]
