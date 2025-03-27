@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"; 
 import { faGithub } from "@fortawesome/free-brands-svg-icons"; 
 
+import fotosSobremim from "../assets/images/sobremim/foto-sobremim.png"
+
 function Footer() {
   return (
     <div id="rodape" class="my-5">
@@ -13,7 +15,7 @@ function Footer() {
           <div class="row">
             <div class="col-md-4 d-flex align-items-center gap-4">
               <div className="iconUser">
-                a
+              <img style={{objectFit: "cover", height: "100%", width: "100%"}} src={fotosSobremim} alt="" />
               </div>
               <div>
                 <p>Bianca Costa</p>

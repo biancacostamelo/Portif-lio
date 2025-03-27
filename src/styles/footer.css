@@ -24,6 +24,7 @@ font-family: 'Inter';
 #rodape a{
     color: var(--brancoEsp);
     text-decoration: none;
+    transition: 0.2s ease-in-out;
 }
 
 .linksfooter{
@@ -31,6 +32,12 @@ font-family: 'Inter';
     justify-content: flex-end;
     align-items: center;
     gap: 3em;
+}
+
+
+#rodape a:hover{
+    color: var(--bgBtn);
+    text-decoration: none;
 }
 
 @media (max-width: 766px) {
@@ -44,8 +51,8 @@ font-family: 'Inter';
 
 #rodape .iconUser{
     height: 51px ;
-    width: 51px; 
-    background-color: #47fa6a; 
+    width: 51px;
+    overflow: hidden;
     border-radius: 100px;
 }
 
