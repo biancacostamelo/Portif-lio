@@ -25,6 +25,7 @@ font-family: 'Inter';
     color: var(--brancoEsp);
     text-decoration: none;
     transition: 0.2s ease-in-out;
+    font-family: "Inter";
 }
 
 .linksfooter{
