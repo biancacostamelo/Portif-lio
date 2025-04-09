@@ -8,11 +8,6 @@
   border-radius: 10px;
 }
 
-.inputContato:focus {
-  outline: none;
-  border: 1px solid var(--bgBtn);
-}
-
 .btn-contato {
   background-color: var(--bgBtn);
   color: var(--texto);
@@ -56,9 +51,18 @@ label {
   color: var(--paragrafo);
 }
 
-#contato label,
+#contato
 p,
 button,
 select {
   font-size: 14px;
+}
+
+#contato label {
+  font-size: 14px;
+}
+
+.inputContato:focus {
+  outline: none;
+  border: 1px solid var(--bgBtn);
 }
