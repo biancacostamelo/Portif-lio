@@ -2,7 +2,7 @@
   background: var(--bgHome);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 65%;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@
   /* font-size: 1.25rem; */
   color: var(--contrast);
   font-weight: 300;
-  margin: 0 55px;
+  margin: 0 6px;
 }
 
 #home .view-icon-seta {
@@ -44,7 +44,6 @@
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  align-items: end;
 }
 
 @keyframes iconSeta {
