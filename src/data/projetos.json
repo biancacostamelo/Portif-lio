@@ -24,21 +24,19 @@
 
   {
     "id": 2,
-    "titulo": "MasterMoney Landing Page",
-    "subtitulo": "Landing Page Para Visualização de Produto",
-    "link-repositorio": "https://github.com/biancacostamelo/Master-card",
-    "linkimg": "/assets/images/projetos/imagens/siteCartao.png",
+    "titulo": "Watermelon Landing Page",
+    "subtitulo": "Landing Page de Bebida",
+    "link-repositorio": "https://github.com/biancacostamelo/Landing-Page-wiki-",
+    "linkimg": "/assets/images/projetos/imagens/landingWatermalon.png",
     "link-video": "",
-    "nivel": "básico",
-    "cores-principais": ["#41E660", "#217DC5"],
-    "cor-gradiente": ["#133C45", "#080913"],
-    "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
-    "descricao": " Desenvolvimento de landing page responsiva para divulgação de produto (cartão de crédito).",
-    "dados-tecnologias": {
-      "JavaScript": "8.5%",
-      "HTML": "67.9%",
-      "CSS": "23.6%"
-    }
+    "nivel": "avancado",
+    "cores-principais": ["#f76993", "#f76950"],
+    "cor-gradiente": ["#f7699350", "#f7695050"],
+    "tecnologias": [
+      "HTML", "CSS", "Bootstrap"
+    ],
+    "descricao": "Landing page para divulgação de produto alimentício. Criada com HTML, CSS e Bootstrap.",
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   },
 
   {
@@ -58,23 +56,40 @@
 
   {
     "id": 4,
-    "titulo": "Watermelon Landing Page",
-    "subtitulo": "Landing Page de Bebida",
-    "link-repositorio": "https://github.com/biancacostamelo/Landing-Page-wiki-",
-    "linkimg": "/assets/images/projetos/imagens/landingWatermalon.png",
+    "titulo": "MasterMoney Landing Page",
+    "subtitulo": "Landing Page Para Visualização de Produto",
+    "link-repositorio": "https://github.com/biancacostamelo/Master-card",
+    "linkimg": "/assets/images/projetos/imagens/siteCartao.png",
     "link-video": "",
-    "nivel": "avancado",
-    "cores-principais": ["#f76993", "#f76950"],
-    "cor-gradiente": ["#f7699350", "#f7695050"],
-    "tecnologias": [
-      "HTML", "CSS", "Bootstrap"
-    ],
-    "descricao": "Landing page para divulgação de produto alimentício. Criada com HTML, CSS e Bootstrap.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+    "nivel": "básico",
+    "cores-principais": ["#41E660", "#217DC5"],
+    "cor-gradiente": ["#133C45", "#080913"],
+    "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
+    "descricao": " Desenvolvimento de landing page responsiva para divulgação de produto (cartão de crédito).",
+    "dados-tecnologias": {
+      "JavaScript": "8.5%",
+      "HTML": "67.9%",
+      "CSS": "23.6%"
+    }
   },
 
   {
     "id": 5,
+    "titulo": "Site de Previsão de Tempo",
+    "subtitulo": "Landing Page Para Visualização de Produtos Eletronicos",
+    "link-repositorio": "https://github.com/biancacostamelo/Site-Previs-o-do-Tempo",
+    "linkimg": "/assets/images/projetos/imagens/Sequência 01.gif",
+    "link-video": "../assets/images/projetos/videos/video-sistema-financeiro.mp4",
+    "nivel": "básico",
+    "cores-principais": ["#6091db", "#6071db"],
+    "cor-gradiente": ["#6091db, #6091db50"],
+    "tecnologias": ["API REST Full", "JavaSript", "HTML", "CSS", "Bootstrap"],
+    "descricao": "Site para visualização de previsão do tempo, consumindo API de clima e criado com HTML, CSS, JavaScript e Bootstrap.",
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+  },
+  
+  {
+    "id": 6,
     "titulo": "Grooming Pet Móvel Landing Page",
     "subtitulo": "Landing Page Banho Pets",
     "link-repositorio": "https://github.com/biancacostamelo/Landing-Page-wiki-",
@@ -91,21 +106,7 @@
       "CSS": "23.6%"
     }
   },
-
-  {
-    "id": 6,
-    "titulo": "Site de Previsão de Tempo",
-    "subtitulo": "Landing Page Para Visualização de Produtos Eletronicos",
-    "link-repositorio": "https://github.com/biancacostamelo/Site-Previs-o-do-Tempo",
-    "linkimg": "/assets/images/projetos/imagens/Sequência 01.gif",
-    "link-video": "../assets/images/projetos/videos/video-sistema-financeiro.mp4",
-    "nivel": "básico",
-    "cores-principais": ["#6091db", "#6071db"],
-    "cor-gradiente": ["#6091db, #6091db50"],
-    "tecnologias": ["API REST Full", "JavaSript", "HTML", "CSS", "Bootstrap"],
-    "descricao": "Site para visualização de previsão do tempo, consumindo API de clima e criado com HTML, CSS, JavaScript e Bootstrap.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
-  },
+  
   {
     "id": 7,
     "titulo": "Calculadora",
