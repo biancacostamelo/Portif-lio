@@ -90,6 +90,12 @@
   font-size: 25px;
   text-decoration: none;
   color: var(--brancoEsp);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#projetos .iconSetaCard:hover{
+  color: var(--bgBtn);
 }
 
 #projetos .tecnologiaItem {
