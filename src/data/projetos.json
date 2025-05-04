@@ -7,8 +7,8 @@
     "linkimg": "/assets/images/projetos/imagens/gifSistemaFinan.gif",
     "link-video": "",
     "nivel": "avancado",
-    "cores-principais": ["#69EB8C", "#003366"],
-    "cor-gradiente": "#1b3b23, #001b36",
+    "cores-principais": ["#69EB8C", "#001c3881"],
+    "cor-gradiente": ["#387c49", "#001b3650"],
     "tecnologias": [
       "React.Js",
       "NODE.Js",
@@ -30,8 +30,8 @@
     "linkimg": "/assets/images/projetos/imagens/landingWatermalon.png",
     "link-video": "",
     "nivel": "avancado",
-    "cores-principais": ["#f76993", "#f76950"],
-    "cor-gradiente": ["#f7699350", "#f7695050"],
+    "cores-principais": ["#f76993", "#f7695080"],
+    "cor-gradiente": ["#57172b6c", "#f7695030"],
     "tecnologias": [
       "HTML", "CSS", "Bootstrap"
     ],
@@ -47,8 +47,8 @@
     "linkimg": "/assets/images/projetos/imagens/landingPageXbox.png",
     "link-video": "",
     "nivel": "básico",
-    "cores-principais": ["#DD89FF", "#A988FF"],
-    "cor-gradiente": ["#1E1835", "#2B244C"],
+    "cores-principais": ["#DD89FF", "#aa88ff7a"],
+    "cor-gradiente": ["#1E1835", "#1e18355d"],
     "tecnologias": ["React.Js", "JavaScript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Projeto institucional. Landing page para venda de produtos eletronicos. Criada com React.Js, HTML, CSS e Bootstrap.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
@@ -62,8 +62,8 @@
     "linkimg": "/assets/images/projetos/imagens/siteCartao.png",
     "link-video": "",
     "nivel": "básico",
-    "cores-principais": ["#41E660", "#217DC5"],
-    "cor-gradiente": ["#133C45", "#080913"],
+    "cores-principais": ["#41E660", "#217ec591"],
+    "cor-gradiente": ["#194b57", "#08091381"],
     "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": " Desenvolvimento de landing page responsiva para divulgação de produto (cartão de crédito).",
     "dados-tecnologias": {
@@ -81,8 +81,8 @@
     "linkimg": "/assets/images/projetos/imagens/Sequência 01.gif",
     "link-video": "../assets/images/projetos/videos/video-sistema-financeiro.mp4",
     "nivel": "básico",
-    "cores-principais": ["#6091db", "#6071db"],
-    "cor-gradiente": ["#6091db, #6091db50"],
+    "cores-principais": ["#6091db", "#2f3b88a1"],
+    "cor-gradiente": ["#597cb1", "#6091db30"],
     "tecnologias": ["API REST Full", "JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Site para visualização de previsão do tempo, consumindo API de clima e criado com HTML, CSS, JavaScript e Bootstrap.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
@@ -97,7 +97,7 @@
     "link-video": "",
     "nivel": "básico",
     "cores-principais": ["#d86200", "#d8620050"],
-    "cor-gradiente": ["##d86200", "#d8620050"],
+    "cor-gradiente": ["#995d2b7a", "#d8620030"],
     "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Landing page para divulgação de serviço de banho e tosa. Criada com HTML, CSS e Bootstrap.",
     "dados-tecnologias": {
@@ -115,8 +115,8 @@
     "linkimg": "/assets/images/projetos/imagens/gifCalculadora2.gif",
     "link-video": "../assets/images/projetos/videos/video-sistema-financeiro.mp4",
     "nivel": "básico",
-    "cores-principais": ["#6091db", "#6071db"],
-    "cor-gradiente": ["#6091db", "#6091db50"],
+    "cores-principais": ["#6091db", "#2f3b88a1"],
+    "cor-gradiente": ["#597cb1", "#6091db30"],
     "tecnologias": ["JavaSript", "HTML", "CSS"],
     "descricao": "Calculadora simples, funcional e responsiva criada com HTML, CSS, JavaScript e Bootstrap.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
