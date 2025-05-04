@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 //import "../styles/projetos.css";
 import projectsd from "../data/projetos.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Projetos = () => {
 
@@ -95,14 +97,15 @@ const getContainerStyle = () => {
                   {e.tecnologias.map((i) => (
                     <div className="tecnologiaItem">{i}</div>
                   ))}
-                  <a
+                  <FontAwesomeIcon icon={faGithub} className="iconSetaCard"/>
+                  {/* <a
                     href={e["link-repositorio"]}
                     target="_blank"
                     className="iconSetaCard"
                     rel="noopener noreferrer"
                   >
                     ↗
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

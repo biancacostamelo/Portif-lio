@@ -30,11 +30,12 @@ const Contato = () => {
             <div className="col-lg-12 d-flex flex-column">
               <label for="Assunto">Assunto</label>
               <select className="inputContato" name="" id="Assunto">
-                <option className="inputContato" value="">Desenvolvimento Web</option>
-                <option className="inputContato" value="">Orçamento</option>
-                <option className="inputContato" value="">Sugestão</option>
-                <option className="inputContato" value="">Duvida</option>
-                <option className="inputContato" value="">Outro</option>
+                <option className="inputContato" value="Selecione">Selecione</option>
+                <option className="inputContato" value="Desenvolvimento">Desenvolvimento Web</option>
+                <option className="inputContato" value="Orçamento">Orçamento</option>
+                <option className="inputContato" value="Sugestão">Sugestão</option>
+                <option className="inputContato" value="Duvida">Duvida</option>
+                <option className="inputContato" value="Outro">Outro</option>
               </select>
             </div>
           </div>

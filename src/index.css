@@ -10,7 +10,7 @@
   --bgLabel: #221b38;
   --borderInput: #221b38;
   --bgBtn: #b19ad8;
-  --bgHome: url(./assets/images/home/home-background.png);
+  --bgHome: url(./assets/images/home/bg\ home\ dark.png);
   --linha: #ffffff3b;
   transition: 0.1s ease-in-out;
 }
@@ -27,7 +27,7 @@
   --bgBtn: #b19ad8;
   --sombraCard: 2px 1px 5px #9999994b;
   --sombraTexto: 2px 3px 2px #8e5151;
-  --bgHome: url(./assets/images/home/home-background.png);
+  --bgHome: url(./assets/images/home/bgLight.png);
   --linha: #0000003b;
   transition: 0.1s ease-in-out;
 }

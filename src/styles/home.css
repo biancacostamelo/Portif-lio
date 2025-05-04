@@ -1,32 +1,31 @@
 #home {
-  background: url(../assets/images/home/home-background.png);
+  background: var(--bgHome);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 65%;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
+  background-color: var(--bg2);
 }
 
 #home h2 {
-    font-size: clamp(2.5rem, 11vw, 5.5rem);
-    color: #fff;
-    font-family: 'montserrat';
-    font-weight: 300;
-    letter-spacing: 5%;
+  font-size: clamp(2.5rem, 11vw, 5.5rem);
+  color: var(--contrast);
+  font-family: "montserrat";
+  letter-spacing: 5%;
 }
 
 #home h1 {
-  color: #461da9;
   font-family: "montserrat";
   font-size: clamp(1rem, 3vw, 1.25rem);
   /* font-size: 1.25rem; */
-  color: #fff;
+  color: var(--contrast);
   font-weight: 300;
-  margin: 0 55px;
+  margin: 0 6px;
 }
 
 #home .view-icon-seta {
@@ -39,6 +38,20 @@
   animation: iconSeta 2s infinite;
   position: absolute;
   bottom: 5px;
+}
+
+#home .home-text-contain{
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 960px) {
+  .light-theme .home-text-contain {
+    width: 100%;
+    background-color: #fbf6f3e1;
+    padding: 10px 0px 10px 0px;
+  }
 }
 
 @keyframes iconSeta {

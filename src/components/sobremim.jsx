@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/sobremim.css'
-import foto from '../assets/images/sobremim/foto.jpg'
+import foto from '../assets/images/sobremim/foto-sobremim.png'
 
 function Sobremim() {
   return (

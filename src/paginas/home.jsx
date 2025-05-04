@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div id="home">
       <div className="a"></div>
-      <div className="home-text-contain">
-        <h2>PORTIFÓLIO</h2>
+      <div className="home-text-contain px-5">
+        <h2>Portifólio</h2>
         <h1>Desenvolvedora FullStack Bianca Costa</h1>
       </div>
       <div className="view-icon-seta">
