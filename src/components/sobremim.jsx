@@ -28,7 +28,7 @@ function Sobremim() {
               officia at sequi consequatur velit quaerat necessitatibus quis,
               excepturi dolor quo aliquam quisquam architecto delectus veniam.
             </p>
-            <button class="btn btn-contato w-50">Mensagem</button>
+            <button class="btn-contato w-50">Mensagem</button>
           </div>
         </div>
       </div>
