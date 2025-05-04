@@ -1,0 +1,58 @@
+.cardItem{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(100px);
+    background-color: var(--fundoCardDscricao);
+    z-index: 3;
+    
+}
+
+.cardCorpo{
+    /* border: 5px solid white; */
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    padding: 40px 80px 40px 80px;   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+.h3CardDescricao{
+    width: 85%;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: white;
+}
+
+.pCardDescricao{
+    color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-shadow: 1px 1px 35px  rgba(0, 0, 0, 0.473);
+}
+
+.imagemProjeto{
+    width: 100%; 
+    height: 409px; 
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.a{
+    color: #6070dbd7;
+}
+
+.spanVoltar{
+    cursor: pointer;
+    color: white !important;
+    font-size: 13px;
+    font-weight: 300;
+}
