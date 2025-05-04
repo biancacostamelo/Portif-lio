@@ -12,6 +12,7 @@
   --bgBtn: #b19ad8;
   --bgHome: url(./assets/images/home/bg\ home\ dark.png);
   --linha: #ffffff3b;
+  --fundoCardDscricao: rgba(0, 0, 0, 0.699);
   transition: 0.1s ease-in-out;
 }
 
@@ -29,6 +30,7 @@
   --sombraTexto: 2px 3px 2px #8e5151;
   --bgHome: url(./assets/images/home/bgLight.png);
   --linha: #0000003b;
+  --fundoCardDscricao: rgba(158, 158, 158, 0.233);
   transition: 0.1s ease-in-out;
 }
 
