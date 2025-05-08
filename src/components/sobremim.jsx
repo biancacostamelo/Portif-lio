@@ -18,16 +18,11 @@ function Sobremim() {
             </div>
           </div>
           <div class="col-md-6 p-5 d-flex flex-column justify-content-center">
-            <h4>Olá!, eu sou a Bianca!</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-              adipisci doloribus architecto similique a quasi commodi neque,
-              reprehenderit nemo esse? Modi totam dolorum placeat nihil
-              assumenda iusto hic. Voluptates, rerum. Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Qui nobis in incidunt atque laborum
-              officia at sequi consequatur velit quaerat necessitatibus quis,
-              excepturi dolor quo aliquam quisquam architecto delectus veniam.
-            </p>
+            <h4>Olá!, eu sou a Bianca!,</h4>
+           
+           <p> Estudante de Análise e Desenvolvimento de Sistemas e Técnico em Informática para Internet.</p>
+           <p>Tenho experiência em desenvolver sites, aplicativos e sistemas complexos. Além disso, possuo conhecimento em Figma para design de interfaces e experiência com WordPress para criação e gerenciamento de sites. Estou aberta a novos desafios! <br />Entre em contato! </p>
+            
             <button class="btn-contato w-50">Mensagem</button>
           </div>
         </div>

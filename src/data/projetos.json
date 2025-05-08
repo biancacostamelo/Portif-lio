@@ -110,13 +110,13 @@
   {
     "id": 7,
     "titulo": "Calculadora",
-    "subtitulo": "Site de Previsão de Tempo",
+    "subtitulo": "Calculadora simples",
     "link-repositorio": "https://github.com/biancacostamelo/Calculadora",
     "linkimg": "/assets/images/projetos/imagens/gifCalculadora2.gif",
     "link-video": "../assets/images/projetos/videos/video-sistema-financeiro.mp4",
     "nivel": "básico",
     "cores-principais": ["#6091db", "#2f3b88a1"],
-    "cor-gradiente": ["#597cb1", "#6091db30"],
+    "cor-gradiente": ["#a1a1a180", "#a1a1a180"],
     "tecnologias": ["JavaSript", "HTML", "CSS"],
     "descricao": "Calculadora simples, funcional e responsiva criada com HTML, CSS, JavaScript e Bootstrap.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }

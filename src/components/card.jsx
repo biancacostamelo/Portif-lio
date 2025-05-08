@@ -18,7 +18,7 @@ const CardItem = (props) => {
         <span onClick={props.onClose} className="spanVoltar">
           « voltar
         </span>
-        <h2>{projeto[0].titulo}</h2>
+        <div id="tituloCard">{projeto[0].titulo}</div>
         <div className="row">
           <div className="col-md-10 mb-5 px-5 py-4 d-flex flex-column gap-2" 
           style={{borderLeft: `7px ${projeto[0]["cores-principais"][0]} solid`}}
@@ -29,7 +29,7 @@ const CardItem = (props) => {
           </div>
           <div className="col-md-2 d-flex flex-wrap gap-2" style={{alignContent: 'baseline'}}>
             {projeto[0].tecnologias.map((i)=>
-              <span className="tecnologiaItem" style={{backgroundColor: `${projeto[0]["cores-principais"][1]}`}}>{i}</span>
+              <div id="tituloCard" className="tecnologiaItem" style={{ color: 'white', backgroundColor: `${projeto[0]["cores-principais"][1]}`}}>{i}</div>
             )}
           </div>
           <div className="col-md-12">

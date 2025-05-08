@@ -29,11 +29,11 @@
     width: 85%;
     font-size: 1.6em;
     font-weight: 600;
-    color: white;
+    color: white !important;
 }
 
 .pCardDescricao{
-    color: white;
+    color: white !important;
     font-size: 0.8em;
     font-weight: 400;
     text-shadow: 1px 1px 35px  rgba(0, 0, 0, 0.473);
@@ -54,5 +54,12 @@
     cursor: pointer;
     color: white !important;
     font-size: 13px;
+    font-weight: 300;
+}
+
+#tituloCard{
+    color: white !important;
+    font-family: "montserrat";
+    font-size: clamp(1rem, 11vw, 2rem);
     font-weight: 300;
 }
