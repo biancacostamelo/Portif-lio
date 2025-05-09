@@ -25,7 +25,6 @@ const CardItem = (props) => {
           >
             <h3 className="h3CardDescricao">{projeto[0].subtitulo}</h3>
             <p className="pCardDescricao">{projeto[0].descricao}</p>
-            <p className="pCardDescricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est minima fugit porro. Saepe reprehenderit suscipit aliquid? Omnis, tempora. Itaque, veritatis.</p>
           </div>
           <div className="col-md-2 d-flex flex-wrap gap-2" style={{alignContent: 'baseline'}}>
             {projeto[0].tecnologias.map((i)=>

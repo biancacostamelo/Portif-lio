@@ -18,7 +18,8 @@
       "Chart.Js",
       "Axios"
     ],
-    "descricao": "Projeto para organizar finanças pessoais, com funcionalidades de adicionar, excluir, editar e visualizar receitas e despesas em um dashboard interativo.",
+    "descricao": "Projeto para organizar finanças pessoais, com funcionalidades de adicionar, excluir, editar e visualizar receitas e despesas em um dashboard interativo. Aprendi a integrar um banco de dados MySQL com uma API Express, trabalhar com o React para atualizar a interface em tempo real e utilizar o Chart.js para exibir gráficos dinâmicos das finanças. A integração com Axios também foi fundamental para a comunicação com a API.",
+    "descricao2": "O projeto envolveu a criação de uma aplicação full-stack, onde utilizei o Express para desenvolver a API e o React para consumir e exibir os dados de forma eficiente. A principal dificuldade foi garantir a performance na manipulação de grandes volumes de dados no lado do cliente, o que foi solucionado com técnicas de otimização de estado no React. Além disso, a parte de autenticação e gerenciamento de usuários foi um desafio interessante, pois tive que implementar tokens JWT para garantir a segurança das informações financeiras dos usuários.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   },
 
@@ -35,7 +36,8 @@
     "tecnologias": [
       "HTML", "CSS", "Bootstrap"
     ],
-    "descricao": "Landing page para divulgação de produto alimentício. Criada com HTML, CSS e Bootstrap.",
+    "descricao": "Landing page para divulgação de produto alimentício, utilizando HTML, CSS e Bootstrap. Durante o desenvolvimento, aprendi a estruturar páginas responsivas de forma eficiente e a utilizar os recursos do Bootstrap para garantir uma boa usabilidade em dispositivos móveis e desktop. Esse projeto foi uma ótima prática para melhorar a minha fluência no uso do CSS Grid e Flexbox.",
+    "descricao2": "Além da criação da estrutura visual, o maior desafio foi criar um design atraente que fosse ao mesmo tempo simples e funcional. Para isso, aprimorei minha habilidade em design visual, utilizando fontes, cores e imagens de maneira estratégica para captar a atenção dos usuários. Utilizei também técnicas de otimização de performance para garantir que a landing page carregasse rapidamente, melhorando a experiência do usuário. Aprendi muito sobre a importância de um design intuitivo para aumentar a conversão de visitantes em clientes.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   },
 
@@ -50,7 +52,8 @@
     "cores-principais": ["#DD89FF", "#aa88ff7a"],
     "cor-gradiente": ["#1E1835", "#1e18355d"],
     "tecnologias": ["React.Js", "JavaScript", "HTML", "CSS", "Bootstrap"],
-    "descricao": "Projeto institucional. Landing page para venda de produtos eletronicos. Criada com React.Js, HTML, CSS e Bootstrap.",
+    "descricao": "Projeto institucional para venda de produtos eletrônicos, utilizando React.Js, HTML, CSS e Bootstrap. Aprendi a trabalhar com componentes reutilizáveis no React e a integrar o Bootstrap para garantir uma interface amigável e responsiva. A experiência me ajudou a aprimorar minhas habilidades em JavaScript, especialmente na manipulação de eventos e estados do React.",
+    "descricao2": "Neste projeto, enfrentei o desafio de criar uma interface que fosse visualmente impactante e ao mesmo tempo simples para o usuário navegar. O uso de React foi essencial para organizar a estrutura de componentes e garantir uma experiência interativa. Durante o desenvolvimento, aprimorei minhas habilidades com o sistema de rotas do React Router e como gerenciar os estados de forma eficiente. Além disso, o uso do Bootstrap ajudou a criar um layout responsivo rapidamente, permitindo que a página fosse visualizada adequadamente em qualquer dispositivo.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   },
 
@@ -63,9 +66,10 @@
     "link-video": "",
     "nivel": "básico",
     "cores-principais": ["#41E660", "#217ec591"],
-    "cor-gradiente": ["#194b57", "#08091381"],
+    "cor-gradiente": ["#194b5777", "#08091381"],
     "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
-    "descricao": " Desenvolvimento de landing page responsiva para divulgação de produto (cartão de crédito).",
+    "descricao": "Desenvolvimento de landing page responsiva para divulgação de produto (cartão de crédito). A experiência me permitiu melhorar meu conhecimento sobre as boas práticas de design responsivo e também sobre a utilização de formulários dinâmicos com validação básica em JavaScript.",
+    "descricao2": "Ao criar essa landing page, um dos maiores desafios foi a implementação de um formulário para captar informações dos usuários de maneira eficiente. Utilizei JavaScript para validar os campos do formulário e garantir que os dados fossem enviados corretamente. A utilização de Bootstrap foi essencial para criar um layout clean e responsivo, com um design que se adapta bem a diferentes dispositivos. O projeto também me ensinou sobre a importância da performance e da otimização do código para garantir uma boa experiência de navegação.",
     "dados-tecnologias": {
       "JavaScript": "8.5%",
       "HTML": "67.9%",
@@ -84,10 +88,11 @@
     "cores-principais": ["#6091db", "#2f3b88a1"],
     "cor-gradiente": ["#597cb1", "#6091db30"],
     "tecnologias": ["API REST Full", "JavaSript", "HTML", "CSS", "Bootstrap"],
-    "descricao": "Site para visualização de previsão do tempo, consumindo API de clima e criado com HTML, CSS, JavaScript e Bootstrap.",
+    "descricao": "Site para visualização de previsão do tempo, consumindo uma API de clima e criado com HTML, CSS, JavaScript e Bootstrap. Esse projeto me proporcionou uma experiência prática no consumo de APIs RESTful, onde aprendi a manipular requisições HTTP com JavaScript e exibir os dados de forma dinâmica e interativa na página.",
+    "descricao2": "A principal dificuldade deste projeto foi garantir a precisão dos dados obtidos através da API de clima e tratá-los corretamente antes de exibi-los ao usuário. Trabalhei na implementação de funcionalidades como a exibição de gráficos climáticos dinâmicos utilizando JavaScript e técnicas de manipulação de arrays e objetos. Além disso, o uso do Bootstrap foi fundamental para garantir a responsividade da página, ajustando o layout de acordo com o dispositivo do usuário.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   },
-  
+
   {
     "id": 6,
     "titulo": "Grooming Pet Móvel Landing Page",
@@ -99,14 +104,15 @@
     "cores-principais": ["#d86200", "#d8620050"],
     "cor-gradiente": ["#995d2b7a", "#d8620030"],
     "tecnologias": ["JavaSript", "HTML", "CSS", "Bootstrap"],
-    "descricao": "Landing page para divulgação de serviço de banho e tosa. Criada com HTML, CSS e Bootstrap.",
+    "descricao": "Landing page para divulgação de serviço de banho e tosa, criada com HTML, CSS e Bootstrap. Aprendi a utilizar recursos de design como o uso de animações suaves e transições para melhorar a experiência do usuário. Esse projeto me ajudou a aprimorar a responsividade, garantindo que a página fosse bem exibida em dispositivos móveis e desktops.",
+    "descricao2": "Um dos maiores desafios foi criar uma interface intuitiva que apresentasse informações de forma clara e atraente. A utilização de transições e animações de CSS ajudou a criar uma experiência de navegação mais fluida, o que foi essencial para este tipo de serviço. Além disso, a escolha do layout responsivo com o Bootstrap foi crucial para garantir que o site ficasse bem adaptado em dispositivos móveis, o que é especialmente importante para um público em movimento.",
     "dados-tecnologias": {
       "JavaScript": "8.5%",
       "HTML": "67.9%",
       "CSS": "23.6%"
     }
   },
-  
+
   {
     "id": 7,
     "titulo": "Calculadora",
@@ -118,7 +124,8 @@
     "cores-principais": ["#6091db", "#2f3b88a1"],
     "cor-gradiente": ["#a1a1a180", "#a1a1a180"],
     "tecnologias": ["JavaSript", "HTML", "CSS"],
-    "descricao": "Calculadora simples, funcional e responsiva criada com HTML, CSS, JavaScript e Bootstrap.",
+    "descricao": "Calculadora simples, funcional e responsiva criada com HTML, CSS e JavaScript. Durante o desenvolvimento, aprendi a manipular os eventos de click e teclado em JavaScript, além de trabalhar com funções para realizar os cálculos e garantir a usabilidade em diferentes dispositivos.",
+    "descricao2": "Esse projeto foi uma ótima oportunidade para aprimorar minhas habilidades em lógica de programação e manipulação de eventos no JavaScript. Aprendi a implementar uma lógica de cálculo eficiente, além de garantir que a interface fosse responsiva e amigável em dispositivos móveis. A experiência com manipulação de teclas e eventos foi valiosa, além de aprender a otimizar o código para um desempenho mais fluido.",
     "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
   }
-]
+] 
