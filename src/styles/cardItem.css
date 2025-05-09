@@ -1,65 +1,93 @@
-.cardItem{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    backdrop-filter: blur(100px);
-    background-color: var(--fundoCardDscricao);
-    z-index: 3;
-    
+.cardItem {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(100px);
+  background-color: var(--fundoCardDscricao);
+  z-index: 3;
 }
 
-.cardCorpo{
-    /* border: 5px solid white; */
-    width: 68vw;
-    height: 75vh;
-    margin: auto;
-    padding: 40px 110px 40px 110px;   
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 20px;
-    overflow-y: scroll;
+.cardCorpo {
+  /* border: 5px solid white; */
+  width: 68vw;
+  height: 75vh;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: clamp(9px, 6vw, 110px);
+  padding-right: clamp(9px, 6vw, 110px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  overflow-y: scroll;
 }
 
-.h3CardDescricao{
-    width: 85%;
-    font-size: 1.6em;
-    font-weight: 600;
-    color: white !important;
+@media (max-width: 500px) {
+  .cardCorpo {
+    width: 85vw;
+    height: 85vh;
+  }
+  .col-md-10 {
+    margin-bottom: 0px !important;
+    padding-left: 1.7em !important;
+    padding-right: 1.7em !important;
+  }
 }
 
-.pCardDescricao{
-    color: white !important;
-    font-size: 0.9em;
-    font-weight: 400;
-    text-shadow: 1px 1px 35px  rgba(0, 0, 0, 0.473);
+.h3CardDescricao {
+  width: 85%;
+  font-size: 1.6em;
+  font-weight: 600;
+  color: white !important;
 }
 
-.imagemProjeto{
-    width: 100%; 
-    max-height: 600px;
-    overflow-y: scroll;
-    border-radius: 10px;
+.pCardDescricao {
+  color: white !important;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.473);
 }
 
-.a{
-    color: #6070dbd7;
+.imagemProjeto {
+  width: 100%;
+  max-height: 600px;
+  overflow-y: scroll;
+  border-radius: 10px;
 }
 
-.spanVoltar{
-    cursor: pointer;
-    color: white !important;
-    font-size: 13px;
-    font-weight: 300;
+.a {
+  color: #6070dbd7;
 }
 
-#tituloCard{
-    color: white !important;
-    font-family: "montserrat";
-    font-size: clamp(1rem, 11vw, 2rem);
-    font-weight: 300;
+.spanVoltar {
+  cursor: pointer;
+  color: white !important;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#tituloCard {
+  color: white !important;
+  font-family: "montserrat";
+  font-size: clamp(1rem, 11vw, 2rem);
+  font-weight: 300;
+}
+
+.iconGitHub {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--brancoEsp);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.iconGitHub:hover {
+  color: var(--bgBtn);
 }

@@ -21,9 +21,9 @@ function Sobremim() {
             <h4>Olá!, eu sou a Bianca!,</h4>
            
            <p> Estudante de Análise e Desenvolvimento de Sistemas e Técnico em Informática para Internet.</p>
-           <p>Tenho experiência em desenvolver sites, aplicativos e sistemas complexos. Além disso, possuo conhecimento em Figma para design de interfaces e experiência com WordPress para criação e gerenciamento de sites. Estou aberta a novos desafios! <br />Entre em contato! </p>
+           <p>Tenho experiência em desenvolver sites, aplicativos e sistemas complexos. Além disso, possuo conhecimento em Figma para design de interfaces. Estou aberta a novos desafios! <br />Entre em contato! </p>
             
-            <button class="btn-contato w-50">Mensagem</button>
+            <a href="#contato"><button class="btn-contato w-50">Mensagem</button></a>
           </div>
         </div>
       </div>
