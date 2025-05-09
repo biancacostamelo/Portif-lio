@@ -35,8 +35,8 @@ function Footer() {
               <p>© 2025. All rights reserved.</p>
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center gap-3">
-              <FontAwesomeIcon icon={faLinkedin} className="icon-linkedin" />
-              <FontAwesomeIcon icon={faGithub}  className="icon-linkedin" />
+              <a href='https://www.linkedin.com/in/bianca-costa-707000223/'><FontAwesomeIcon icon={faLinkedin} className="icon-linkedin" /></a>
+              <a href='https://github.com/biancacostamelo/'><FontAwesomeIcon icon={faGithub}  className="icon-linkedin" /></a>
             </div>
           </div>
         </div>
