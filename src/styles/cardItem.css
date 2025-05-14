@@ -81,9 +81,9 @@
 .iconGitHub {
   margin: 0;
   padding: 0;
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
-  color: var(--brancoEsp);
+  color: #f3f3f3;
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
