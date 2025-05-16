@@ -20,7 +20,8 @@
     ],
     "descricao": "Projeto para organizar finanças pessoais, com funcionalidades de adicionar, excluir, editar e visualizar receitas e despesas em um dashboard interativo. Aprendi a integrar um banco de dados MySQL com uma API Express, trabalhar com o React para atualizar a interface em tempo real e utilizar o Chart.js para exibir gráficos dinâmicos das finanças. A integração com Axios também foi fundamental para a comunicação com a API.",
     "descricao2": "O projeto envolveu a criação de uma aplicação full-stack, onde utilizei o Express para desenvolver a API e o React para consumir e exibir os dados de forma eficiente. A principal dificuldade foi garantir a performance na manipulação de grandes volumes de dados no lado do cliente, o que foi solucionado com técnicas de otimização de estado no React. Além disso, a parte de autenticação e gerenciamento de usuários foi um desafio interessante, pois tive que implementar tokens JWT para garantir a segurança das informações financeiras dos usuários.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" },
+    "link-site": "https://github.com/biancacostamelo/sistema-financeiro"
   },
 
   {
@@ -38,7 +39,8 @@
     ],
     "descricao": "Landing page para divulgação de produto alimentício, utilizando HTML, CSS e Bootstrap. Durante o desenvolvimento, aprendi a estruturar páginas responsivas de forma eficiente e a utilizar os recursos do Bootstrap para garantir uma boa usabilidade em dispositivos móveis e desktop. Esse projeto foi uma ótima prática para melhorar a minha fluência no uso do CSS Grid e Flexbox.",
     "descricao2": "Além da criação da estrutura visual, o maior desafio foi criar um design atraente que fosse ao mesmo tempo simples e funcional. Para isso, aprimorei minha habilidade em design visual, utilizando fontes, cores e imagens de maneira estratégica para captar a atenção dos usuários. Utilizei também técnicas de otimização de performance para garantir que a landing page carregasse rapidamente, melhorando a experiência do usuário. Aprendi muito sobre a importância de um design intuitivo para aumentar a conversão de visitantes em clientes.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" },
+    "link-site": "https://landing-page-wiki.vercel.app/"
   },
 
   {
@@ -54,7 +56,8 @@
     "tecnologias": ["React.Js", "JavaScript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Projeto institucional para venda de produtos eletrônicos, utilizando React.Js, HTML, CSS e Bootstrap. Aprendi a trabalhar com componentes reutilizáveis no React e a integrar o Bootstrap para garantir uma interface amigável e responsiva. A experiência me ajudou a aprimorar minhas habilidades em JavaScript, especialmente na manipulação de eventos e estados do React.",
     "descricao2": "Neste projeto, enfrentei o desafio de criar uma interface que fosse visualmente impactante e ao mesmo tempo simples para o usuário navegar. O uso de React foi essencial para organizar a estrutura de componentes e garantir uma experiência interativa. Durante o desenvolvimento, aprimorei minhas habilidades com o sistema de rotas do React Router e como gerenciar os estados de forma eficiente. Além disso, o uso do Bootstrap ajudou a criar um layout responsivo rapidamente, permitindo que a página fosse visualizada adequadamente em qualquer dispositivo.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" },
+    "link-site": "https://landing-page-wiki.vercel.app/"
   },
 
   {
@@ -74,7 +77,8 @@
       "JavaScript": "8.5%",
       "HTML": "67.9%",
       "CSS": "23.6%"
-    }
+    },
+    "link-site": "https://master-card-gamma.vercel.app/"
   },
 
   {
@@ -90,7 +94,8 @@
     "tecnologias": ["API REST Full", "JavaSript", "HTML", "CSS", "Bootstrap"],
     "descricao": "Site para visualização de previsão do tempo, consumindo uma API de clima e criado com HTML, CSS, JavaScript e Bootstrap. Esse projeto me proporcionou uma experiência prática no consumo de APIs RESTful, onde aprendi a manipular requisições HTTP com JavaScript e exibir os dados de forma dinâmica e interativa na página.",
     "descricao2": "A principal dificuldade deste projeto foi garantir a precisão dos dados obtidos através da API de clima e tratá-los corretamente antes de exibi-los ao usuário. Trabalhei na implementação de funcionalidades como a exibição de gráficos climáticos dinâmicos utilizando JavaScript e técnicas de manipulação de arrays e objetos. Além disso, o uso do Bootstrap foi fundamental para garantir a responsividade da página, ajustando o layout de acordo com o dispositivo do usuário.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" },
+    "link-site": "https://site-previs-o-do-tempo.vercel.app/"
   },
 
   {
@@ -110,7 +115,8 @@
       "JavaScript": "8.5%",
       "HTML": "67.9%",
       "CSS": "23.6%"
-    }
+    },
+    "link-site": "https://landing-page-wiki.vercel.app/"
   },
 
   {
@@ -126,6 +132,7 @@
     "tecnologias": ["JavaSript", "HTML", "CSS"],
     "descricao": "Calculadora simples, funcional e responsiva criada com HTML, CSS e JavaScript. Durante o desenvolvimento, aprendi a manipular os eventos de click e teclado em JavaScript, além de trabalhar com funções para realizar os cálculos e garantir a usabilidade em diferentes dispositivos.",
     "descricao2": "Esse projeto foi uma ótima oportunidade para aprimorar minhas habilidades em lógica de programação e manipulação de eventos no JavaScript. Aprendi a implementar uma lógica de cálculo eficiente, além de garantir que a interface fosse responsiva e amigável em dispositivos móveis. A experiência com manipulação de teclas e eventos foi valiosa, além de aprender a otimizar o código para um desempenho mais fluido.",
-    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" }
+    "dados-tecnologias": { "JavaScript": "50%", "HTML": "2.5%", "CSS": "12.6%" },
+    "link-site": "https://calculadora-eight-ivory.vercel.app/"
   }
 ] 

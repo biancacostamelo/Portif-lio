@@ -196,6 +196,7 @@ const Projetos = () => {
                   {e.tecnologias.map((i) => (
                     <div className="tecnologiaItem">{i}</div>
                   ))}
+                  <a href="https://landing-page-wiki.vercel.app/" target="blank">link</a>
                   <a
                     href={e["link-repositorio"]}
                     target="_blank"
