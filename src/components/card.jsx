@@ -3,6 +3,7 @@ import "../styles/cardItem.css";
 import projetosJson from "../data/projetos.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { X } from "react-bootstrap-icons";
 
 const CardItem = (props) => {
   const idProjeto = props.id;
@@ -12,6 +13,7 @@ const CardItem = (props) => {
     <div 
     className="cardItem"
     >
+      <X size={40} color="white" className="spanVoltar m-4" onClick={props.onClose} style={{alignSelf: 'flex-start'}}/>
       <div 
       className="cardCorpo" 
       style={{

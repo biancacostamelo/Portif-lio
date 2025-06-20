@@ -70,5 +70,23 @@
         "nome": "API Rest",
         "caminho": "/assets/icones/cloudarrowupfill.svg",
         "descricao": "Arquitetura de Software"
+    },
+    {
+        "id": 11,
+        "nome": "AWS Cloud",
+        "caminho": "/assets/icones/aws.svg",
+        "descricao": "Servilos de Nuvem"
+    },
+    {
+        "id": 12,
+        "nome": "PHP",
+        "caminho": "/assets/icones/php.svg",
+        "descricao": "Linguaguem de Programação"
+    },
+    {
+        "id": 12,
+        "nome": "Laravel",
+        "caminho": "/assets/icones/laravel.svg",
+        "descricao": "Framework"
     }
 ]

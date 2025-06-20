@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
+
 //import "../styles/projetos.css";
 import projectsd from "../data/projetos.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Link45deg } from 'react-bootstrap-icons'
 import CardItem from "../components/card";
 
 const Projetos = () => {
@@ -167,6 +167,7 @@ const Projetos = () => {
           id="display"
           style={{ justifyContent: getContainerStyle().justifyContent }}
         >
+         
           {projects.map((e) => (
             <div
               className="col-md-4 cardProjeto"
@@ -196,25 +197,23 @@ const Projetos = () => {
                   {e.tecnologias.map((i) => (
                     <div className="tecnologiaItem">{i}</div>
                   ))}
-                  <a href="https://landing-page-wiki.vercel.app/" target="blank">link</a>
                   <a
-                    href={e["link-repositorio"]}
+                    href={e["link-site"]}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="abrir site"
                   >
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      className="iconSetaCard"
-                      path={e["link-repositorio"]}
-                    />
+                     <Link45deg className="iconSetaCard"/>
                   </a>
                   <button
                     onClick={() => AbrirDetalhes(e.id)}
                     className="btn iconSetaCard"
                     style={{ right: "40px", bottom: "-15px", fontSize: "35px" }}
+                    title="ver mais"
                   >
                     ↗
                   </button>
+                  
                 </div>
               </div>
             </div>
